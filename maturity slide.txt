@@ -1,0 +1,33 @@
+In this slide, we are showcasing the maturity progression of PG&E’s cloud operations. On the left, you’ll notice various domains, and across the top, you can see the maturity stages ranging from one to five. Stage one represents where we started back in 2022.
+
+In stage three and four, which is highlighted in green on this slide, you’ll see our current initiatives. These green areas represent active practices—some of which have already been implemented, while others are currently in the process of implementation. The blue areas, on the other hand, represent proposed actions; these are strategies and improvements we are considering for the future. For instance, if we look at the ‘Platform’ domain, previously we operated in a more siloed manner, focusing individually per application group.
+
+Data
+
+Initially, we moved our operations to utilize CloudFormation, which marked our first major step towards automation and standardized deployments. Currently, we are enhancing our capabilities by integrating Terraform, an even more advanced infrastructure as code tool that allows us greater flexibility and control over our cloud environments.
+
+Looking ahead, our goal is to expand into a multi-cloud strategy, which will not only enhance our resilience but also optimize our resource usage across different cloud platforms. Additionally, we’re planning to implement automated testing and disaster recovery (DR) failover for all cloud applications. Currently, this DR failover is only in place for the Emergency Website application. By broadening this to include all applications, we aim to significantly enhance our operational resilience and ensure continuous service availability.
+
+FinOps
+
+“Moving on to our ‘FinOps’ domain, we started with a less optimized and controlled cost model. As of now, we’ve implemented consolidated billing and are practicing regular budget reviews along with tagging to better track and manage our cloud expenses. For the future, we’re aiming to establish an advanced cost optimization model. This will include detailed cost allocation and chargeback mechanisms to ensure transparency and accountability in our cloud spending.”
+
+Security
+
+“In the domain of ‘Security,’ we began with basic, reactive measures. Currently, we have implemented more sophisticated security infrastructure including SIEM and IAM systems, along with IBM’s QRadar to enhance our threat detection and response capabilities. Moving forward, our focus will be on achieving a state where there are no vulnerabilities within our cloud landscape, integrating security patch management directly into our DevSecOps processes.”
+
+Process
+
+“For ‘Process,’ we have moved from ad-hoc and scattered processes to more streamlined and standardized operations. Currently, we hold regular architectural and change management meetings to ensure that all deployments align with our organizational goals. Our future target is to develop a complete cloud advisory service, which will act as a comprehensive guide for cloud strategy across the company.”
+
+Ops & COE
+
+“In ‘Ops & COE,’ from having no dedicated operations personnel and a lack of excellence, we now have structured operations with standard operating procedures and runbooks. Looking ahead, we aim to implement self-service catalogs and blueprints, which will empower our teams to manage their needs more efficiently and foster a model of operational excellence.”
+
+People
+
+“Regarding ‘People,’ our focus has shifted from minimal training to a more robust competency development framework. We are now facilitating cross-functional employee training and have established a technology training enablement program. Our next step is to launch the PG&E Academy Service, which will provide continuous learning opportunities and career development paths for all employees.”
+
+Data
+
+“Lastly, in the ‘Data’ domain, we’ve progressed from having minimal data governance to implementing comprehensive data management policies and classifications. Our future plans include setting up stringent data access and audit processes, alongside entitlement management to ensure that data handling within PG&E meets the highest standards of security and compliance.”
